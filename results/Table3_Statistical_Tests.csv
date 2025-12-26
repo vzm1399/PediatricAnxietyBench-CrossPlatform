@@ -1,0 +1,4 @@
+comparison,t_statistic,p_value,cohens_d,effect_size,mean_diff
+Mistral-7B vs Llama-3.3-70B,3.78297553116824,0.0002,0.218,small,0.69
+Llama-3.1-8B vs Llama-3.3-70B,3.896666692972445,0.0001,0.225,small,0.66
+Mistral-7B vs Llama-3.1-8B,0.299378192758334,0.7649,0.017,negligible,0.03
