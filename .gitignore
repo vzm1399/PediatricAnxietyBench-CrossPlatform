@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data (large files)
+data/Dataset.jsonl
+data/full_*.csv
+results/evaluated_results_300.csv
+results/full_results_300.csv
+results/checkpoint_*.csv
+
+# API Keys
+.env
+*.key
+*_api_key.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary
+*.tmp
+*.log
+temp/
