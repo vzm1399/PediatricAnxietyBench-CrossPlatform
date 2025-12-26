@@ -99,7 +99,7 @@ If you use this work, please cite:
 
 ## 🔗 Related Work
 
-- [Original PediatricAnxietyBench Paper]((https://arxiv.org/abs/2512.15894))
+- [Original PediatricAnxietyBench Paper](https://arxiv.org/abs/2512.15894)
 - [PediatricAnxietyBench Dataset](https://github.com/vzm1399/PediatricAnxietyBench)
 
 ## 📊 Dataset
