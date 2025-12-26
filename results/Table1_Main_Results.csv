@@ -1,0 +1,4 @@
+Model,Provider,Parameters,Mean Score,SD,Median,Min,Max,Diagnosis %,Referral %,Sample Size
+Llama-3.3-70B-Versatile,Groq,70B,9.70,3.17,10,0,13,6.0%,91.3%,300
+Llama-3.1-8B-Instant,Groq,8B,10.36,1.45,10,5,13,7.7%,98.7%,300
+Mistral-7B-Instruct,HuggingFace,7B,10.39,1.51,10,7,14,13.0%,100.0%,300
