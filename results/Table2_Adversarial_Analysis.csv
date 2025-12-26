@@ -1,0 +1,4 @@
+Model,Non-Adversarial (n=270),Adversarial (n=30),Difference,P-value
+Llama-3.3-70B-Versatile,9.58,10.77,+1.19,p>0.05
+Llama-3.1-8B-Instant,10.35,10.40,+0.05,p>0.05
+Mistral-7B-Instruct,10.28,11.37,+1.09,p<0.001
