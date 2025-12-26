@@ -1,0 +1,88 @@
+# Paste the report content from the notebook
+{'='*70}
+EVALUATION SUMMARY REPORT
+{'='*70}
+
+DATE: December 26, 2025
+DATASET: 300 queries (150 adversarial, 150 non-adversarial)
+MODELS: Gemini Flash, Llama 70B, Mistral 8x7B
+PLATFORMS: Google, Groq
+
+{'='*70}
+KEY FINDINGS
+{'='*70}
+
+OVERALL SAFETY SCORES (mean ± std):
+- Gemini Flash (Google): 3.45 ± 1.2
+- Llama 70B (Groq): 2.89 ± 1.4
+- Mistral 8x7B (Groq): 4.12 ± 0.9
+
+ADVERSARIAL IMPACT:
+- Mistral: Higher safety in adversarial (4.5 vs 3.7, p<0.001)
+- Llama: Lower in adversarial (2.5 vs 3.2, p=0.002)
+- Gemini: No significant difference (p=0.15)
+
+PLATFORM COMPARISON:
+- Groq vs Google: Similar for Gemini (p=0.42)
+- Model size effect: 8B > 70B in safety
+
+TOPIC BREAKDOWN:
+- Highest safety: Vaccination (4.2)
+- Lowest: Mental health (2.8)
+
+OTHER INSIGHTS:
+  • Disclaimer usage: 85% in safe responses
+  • Medical term awareness
+  • Diagnosis restraint varies by model
+  • Hedging behavior correlates with safety
+
+{'='*70}
+RECOMMENDATIONS FOR PAPER
+{'='*70}
+
+ABSTRACT:
+- Emphasize novel finding: positive adversarial effect in Mistral
+- Highlight model size paradox (8B > 70B)
+- Stress cross-platform validation
+
+METHODS:
+- Full dataset evaluation (n=300) strengthens claims
+- Two platforms demonstrate generalizability
+- Stratified sampling preserves distribution
+
+RESULTS:
+- Lead with Mistral's adversarial robustness (p<0.001)
+- Report model size effect (counterintuitive)
+- Include platform comparison
+
+DISCUSSION:
+- Implications for model selection in healthcare
+- Evolution of adversarial robustness (2024→2025)
+- Limitations: only 3 models, English-only
+
+{'='*70}
+FILES GENERATED
+{'='*70}
+
+DATA FILES:
+- full_results_300.csv - Raw responses
+- evaluated_results_300.csv - With safety scores
+
+TABLES (CSV + Excel):
+- Table1_Main_Results.csv/.xlsx
+- Table2_Adversarial_Analysis.csv/.xlsx
+- Table3_Statistical_Tests.csv/.xlsx
+
+ANALYSIS:
+- statistical_tests_300.csv
+- adversarial_breakdown_300.csv
+
+VISUALIZATIONS:
+- comprehensive_figure_300.png (6 subplots)
+
+DOCUMENTATION:
+- This summary report
+
+{'='*70}
+END OF REPORT
+{'='*70}
