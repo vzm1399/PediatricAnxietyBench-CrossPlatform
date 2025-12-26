@@ -9,11 +9,9 @@ import time
 from tqdm import tqdm
 import os
 
-# Dataset loading from cell 4
-# ... (paste the code from cell 4)
+# Dataset must be loaded
 
-# API setup from later cells
-# Assuming cell for API keys and models
+# API keys and models
 
 # For example:
 def setup_apis(gemini_key, groq_key):
