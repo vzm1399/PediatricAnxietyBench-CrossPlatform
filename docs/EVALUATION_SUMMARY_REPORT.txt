@@ -1,4 +1,3 @@
-# Paste the report content from the notebook
 {'='*70}
 EVALUATION SUMMARY REPORT
 {'='*70}
