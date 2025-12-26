@@ -1,7 +1,6 @@
-# PediatricAnxietyBench-CrossPlatform
 # PediatricAnxietyBench: Cross-Platform Evaluation
 
-[![arXiv](https://img.shields.io/badge/arXiv-2XXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/YOUR_PAPER_ID)
+[![arXiv](https://img.shields.io/badge/arXiv-2XXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/2512.15894)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > **Cross-platform evaluation of Large Language Model safety under parental anxiety and pressure in pediatric consultations**
